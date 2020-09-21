@@ -53,13 +53,13 @@ class TicTacToe
    end
    
    def turn_count
-  turn = 0
+    turns_played = 0
   @board.each do |index|
     if index == "X" || index == "O"
-      turn += 1
+      turns_played += 1
     end
   end
-  return turn
+  return turns_played
 end
    
    def turn
