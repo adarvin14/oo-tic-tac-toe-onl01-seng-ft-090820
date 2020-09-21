@@ -110,10 +110,7 @@ end
   
   def winner
     if combo = won?
-      puts "Congratulations #{winner}!"
-    elsif draw?
-      puts "Cat's Game!"
-    end
+     
   end
   
   def play
