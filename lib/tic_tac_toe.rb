@@ -99,8 +99,7 @@ end
   
   def draw?
     if full? && !won?
-      true
-    else
+      return true
       false
     end
   end
