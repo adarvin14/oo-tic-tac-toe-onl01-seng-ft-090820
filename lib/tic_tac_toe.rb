@@ -113,8 +113,6 @@ end
       puts "Congratulations #{winner}!"
     elsif draw?
       puts "Cat's Game!"
-    else
-      turn
     end
   end
   
@@ -122,6 +120,10 @@ end
     until over?
     turn
   end
+   if combo = won?
+      puts "Congratulations #{winner}!"
+    elsif draw?
+      puts "Cat's Game!"
 end
 end
   
