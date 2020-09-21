@@ -110,7 +110,7 @@ end
   
   def winner
     if combo = won?
-     
+   end
   end
   
   def play
