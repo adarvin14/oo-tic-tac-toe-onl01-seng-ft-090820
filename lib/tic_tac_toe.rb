@@ -119,7 +119,7 @@ end
     until over?
       turn
     end
-  if combo = won?
+  if won?
       puts "Congratulations #{winner}!"
     elsif draw?
       puts "Cat's Game!"
