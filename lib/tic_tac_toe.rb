@@ -115,10 +115,10 @@ end
    end
   end
   
-  #def play
+  def play
     until over?
-    turn
-  end
+      turn
+    end
   if combo = won?
       puts "Congratulations #{winner}!"
     elsif draw?
